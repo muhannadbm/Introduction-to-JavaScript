@@ -233,7 +233,7 @@ const feet = function (cm){
     let feet = cm / 30.48;
     return feet;
   }
- 
+
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -248,11 +248,11 @@ Using the annoyingSong function below do the following:
 
 function annoyingSong(num){
         while(num > 0){
-          num = num - 1;
-        }
-        return num+' bottles of soda on the wall, '+num+' bottles of soda, take one down pass it around '+ num-1 +' bottles of soda on the wall';
+        let myvar  = num + ' bottles of soda on the wall, '+ num +' bottles of soda, take one down pass it around '+ (num - 1) +' bottles of soda on the wall';
+        num = num - 1;
+        return myvar; }
   }
-  console.log(annoyingSong(5));
+  console.log(annoyingSong(10));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
